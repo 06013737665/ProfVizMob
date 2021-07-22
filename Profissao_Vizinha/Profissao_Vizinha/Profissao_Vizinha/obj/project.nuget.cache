@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "5509fjgE4VTE6DdOvnGvyotxUW1eYu1pMGv70RCKZ9DbTlfJd9SIKRn3axjfSCFJxeD1Q5bx/m/CmWVWs5tbKw==",
+  "success": true,
+  "projectFilePath": "C:\\git\\profvizMob\\Profissao_Vizinha\\Profissao_Vizinha\\Profissao_Vizinha\\Profissao_Vizinha.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rapha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\rapha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\rapha\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\rapha\\.nuget\\packages\\xam.plugin.externalmaps\\4.0.1\\xam.plugin.externalmaps.4.0.1.nupkg.sha512",
+    "C:\\Users\\rapha\\.nuget\\packages\\xam.plugin.geolocator\\4.6.2-beta\\xam.plugin.geolocator.4.6.2-beta.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\rapha\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2012\\xamarin.forms.maps.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

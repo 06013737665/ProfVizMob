@@ -1,0 +1,3 @@
+C:\git\profvizMob\Profissao_Vizinha\Profissao_Vizinha\Profissao_Vizinha.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\git\profvizMob\Profissao_Vizinha\Profissao_Vizinha\Profissao_Vizinha.Android\obj\Debug\90\build.props
+C:\git\profvizMob\Profissao_Vizinha\Profissao_Vizinha\Profissao_Vizinha.Android\obj\Debug\90\adb.props

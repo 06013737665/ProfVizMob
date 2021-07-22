@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Profissao_Vizinha.Views.AboutPage"
+             xmlns:vm="clr-namespace:Profissao_Vizinha.ViewModels"
+             xmlns:localHelper="clr-namespace:Profissao_Vizinha.Custom"
+               xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             Title="Profissão Vizinha"
+             >
+    
+    <ContentPage.BindingContext>
+        <vm:AboutViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="icon"
+                IconImageSource="iconProf.png" 
+                 Order="Primary" 
+                 Priority="0" />
+        
+     
+    </ContentPage.ToolbarItems>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#babfd7</Color>
+            <Color x:Key="iconVerde">#00e64d</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.4*" />
+            <RowDefinition Height="0.2*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.7*" />
+            <ColumnDefinition Width="0.2*" />
+            
+        </Grid.ColumnDefinitions>
+
+        <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10" BackgroundColor="#babfd7" Grid.ColumnSpan="2">
+                <Entry Grid.Column="0" Grid.Row="0"
+                    Placeholder="Profissao"
+                    TextColor="Black"/>
+            <Image Grid.Column="1" Grid.Row="0"  Source="{localHelper:ImageResource Profissao_Vizinha.Images.lupa.png}" HeightRequest="30" />
+                
+            </StackLayout>
+        <ScrollView Grid.Row="1" Grid.ColumnSpan="2">
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+                <Button Margin="0,10,0,0" Text="Trocar Localização"
+                        Command="{Binding OpenWebCommand}"
+                        BackgroundColor="#babfd7"
+                        TextColor="White"/>
+
+            </StackLayout>
+        </ScrollView>
+        <ScrollView Grid.Row="2" Grid.ColumnSpan="2">
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+                <maps:Map x:Name="map"/>
+                
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>
